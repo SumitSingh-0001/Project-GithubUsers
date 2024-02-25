@@ -1,0 +1,67 @@
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  
+    .main{
+    background-color:aquamarine;
+    width: 100vw;
+    height: 100%;
+}
+
+
+
+.main-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+.info{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(129, 33, 188);
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 30px #bac3c3;
+}
+
+.imagebox{
+    width: 40%;
+    height: 100%;
+
+}
+
+.image{
+    width: 95%;
+    height: 95%;
+    margin: 5px;
+    border-radius: 5%;
+
+}
+
+.details{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.namebox,.usernamebox,.followersbox,.repositoriesbox{
+    height: 25%;
+    width: 100%;
+}
+
+.loading,.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  text-align: center;
+}
+  
